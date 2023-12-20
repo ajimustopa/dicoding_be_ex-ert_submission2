@@ -15,6 +15,8 @@ describe('HTTP server', () => {
     await AuthenticationsTableTestHelper.cleanTable();
   });
 
+  // Baru
+
   describe('when GET /', () =>{
     it('should return 200 and hello world', async () => {
       // Arrange
